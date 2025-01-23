@@ -5,11 +5,12 @@ import { PiSignOut } from "react-icons/pi";
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlinePermMedia } from "react-icons/md";
 import { FaProductHunt } from "react-icons/fa6";
+import React from "react";
 
 export type sidebarContentType = {
     id : number,
     name : string,
-    icon : any,
+    icon : React.ReactNode,
     href : string
 }
 
